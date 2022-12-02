@@ -30,6 +30,10 @@ const LastName = prompt("quale è il tuo cognome?", "Contino");
 
 // chiedo il suo colore preferito
 const PrefereColor = prompt("quale è il tuo colore preferito?", "blu");
-console.log(PrefereColor);
-
+// console.log(PrefereColor);
+// inserire numero
+let myNumber = "21";
+console.log(myNumber);
 // inserire elementi in html
+targetElement.innerText = `${UserName}${LastName}${PrefereColor} ${myNumber}`;
+// console.log(targetElement);
