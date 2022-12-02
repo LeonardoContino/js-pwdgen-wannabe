@@ -20,4 +20,5 @@ const targetElement = document.getElementById("password");
 // console.log(targetElement);
 const UserName = prompt("quale è il tuo nome?", "Leonardo");
 // console.log(UserName);
-const LastName =
+const LastName = prompt("quale è il tuo cognome?", "Contino");
+// console.log(LastName);
