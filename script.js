@@ -18,3 +18,6 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21
 
 const targetElement = document.getElementById("password");
 // console.log(targetElement);
+const UserName = prompt("quale è il tuo nome?", "Leonardo");
+// console.log(UserName);
+const LastName =
