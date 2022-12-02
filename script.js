@@ -13,7 +13,8 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21
     2. chiedo all'utente il suo nome
     3. chiedo il suo cognome
     4. chiedo il suo colore preferito
-    5. inserisco in html o dom i dati dell'utente
+    5. inserire numero 21 su dom
+    6. inserisco in html o dom i dati dell'utente
  */
 
 const targetElement = document.getElementById("password");
@@ -22,3 +23,5 @@ const UserName = prompt("quale è il tuo nome?", "Leonardo");
 // console.log(UserName);
 const LastName = prompt("quale è il tuo cognome?", "Contino");
 // console.log(LastName);
+const PrefereColor = prompt("quale è il tuo colore preferito?", "blu");
+console.log(PrefereColor);
